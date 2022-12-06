@@ -1,0 +1,85 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1107/Turtle-Island-in-Ilan-Taiwan_1920x1080.jpg)
+  }
+
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+    background-color: rgb(225, 252, 230);
+  }
+
+  header {
+    width: 780px;
+    height: 110px;
+    color: #3d1e10;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: rgb(121, 177, 140);
+  }
+
+  h1{
+    /* color  */
+    /* text-shadow: 2px 2px 4px #0a0000; */
+    color: rgb(18, 37, 25);
+    font-size: 2rem;
+  }
+
+.nav{
+    margin-top: 30px;
+    display: flex ;
+}
+
+.nav-list{
+    list-style: none; 
+    margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:active, nav ul li a:visited{
+    color: #1D3124;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+nav ul li a:hover{
+    background-color: #1D3124;
+    /* text-decoration: underline; */
+    color: #fff;
+}
+
+.content-area{
+    display:flex;
+}
+
+article{
+    flex:2;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+
+footer{
+    width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    background: rgb(121, 177, 140);
+}

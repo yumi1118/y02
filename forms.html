@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    fieldset{width: 50%}
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>個人資訊</legend>
+        <form>
+            <h3><label for="fname">姓名:</label>
+                <input type="text" id="fname" name="fname" value=""></h3>
+        </form>
+        <form>
+            <h3>性別:   <input type="radio" id="html" name="fav_language" value="男">   <label for="html">男</label>
+                <input type="radio" id="css" name="fav_language" value="女">   <label for="css">女</label>
+                </label></h3>
+        </form>
+
+        <form action="/action_page.php">
+            <label for="cars"><h3>最高學歷:</label>
+            <select id="cars" name="cars" size="1">
+                <option value="volvo">高中或以下</option>
+                <option value="saab">大專院校</option>
+                <option value="fiat">碩士</option>
+                <option value="audi">博士</option>
+            </select><br><br></h3>
+        </form>
+
+        <form action="/action_page.php">
+            <label for="cars"><h3>專長(可複選):</label>
+            <select name="specialty" id="specialty" multiple>
+                <option value="1">HTML/CSS</option>
+                <option value="2">javascrip</option>
+                <option value="3">database</option>
+                <option value="4">java</option>
+            </select><br><br></h3>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>其它資訊</legend>
+        <p>你喜歡下列哪些活動?(可複選))</p>
+
+        <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="閱讀" value="閱讀">
+            <label for="vehicle1"> 閱讀</label>
+            <input type="checkbox" id="vehicle2" name="打球" value="打球">
+            <label for="vehicle2"> 打球</label>
+            <input type="checkbox" id="vehicle3" name="逛街" value="逛街">
+            <label for="vehicle3"> 逛街</label>
+
+        
+        <p>你對於臉書經營社群有何看法?</p>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="傳送資料">
+        <input type="reset" value="清除資料">
+    </fieldset>
+</form>
+</body>
+
+</html>
