@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     background-image: url(../img/00001.jpg);
+
   }
 
   
@@ -20,9 +21,12 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     background: rgb(121, 177, 140);
+    
   }
 
+
   h1{
+    
     /* color  */
     /* text-shadow: 2px 2px 4px #0a0000; */
     color: rgb(18, 37, 25);
